@@ -1,11 +1,11 @@
 # using this configuration
 
 ## copy the repo
-> git clone https://github.com/Rhahi/config.git
+> git clone https://github.com/Rhahi/fish.git
 
 if you're rhahi, use SSH instead
 
-> git@github.com:Rhahi/config.git
+> git@github.com:Rhahi/fish.git
 
 ## merge base into main
 
