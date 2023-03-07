@@ -1,5 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
+    abbr --add -- gmne "git merge --no-edit"
+    
     for file in ~/.config/fish/userconfig/*
         source $file
     end
