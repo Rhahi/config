@@ -1,12 +1,5 @@
 #!/bin/fish
 
-# add to path if the directory exists
-function addpath
-    if test -d $argv
-        fish_add_path --path $argv
-    end
-end
-
 addpath "$HOME/.local/bin"
 addpath "$HOME/.local/image"
 addpath "$HOME/.cargo/bin"
