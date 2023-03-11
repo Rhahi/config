@@ -3,5 +3,5 @@
 abbr --add -- fwr "sudo firewall-cmd --reload"
 abbr --add -- fw "sudo firewall-cmd"
 abbr --add -- fwp "sudo firewall-cmd --permanent"
-abbr --add -- fwiz "fw --info-zone"
-abbr --add -- fwip "fw --info-policy"
+abbr --add -- fwiz "sudo firewall-cmd --info-zone"
+abbr --add -- fwip "sudo firewall-cmd --info-policy"
