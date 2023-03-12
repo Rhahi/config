@@ -4,16 +4,15 @@
 
 # alias to common config files
 alias editalias="edit ~/.config/fish/userconfig/alias.fish"
-abbr --add --position anywhere -- xx "&& exec fish"
-abbr --add --position anywhere -- alias. "~/.config/fish/userconfig/alias.fish"
-abbr --add --position anywhere -- fishconfig. "~/.config/fish/config.fish"
-abbr --add --position anywhere -- userconfig. "~/.config/fish/userconfig/"
-abbr --add --position anywhere -- paths. "~/.config/fish/userconfig/paths.fish"
+abbr --add -- alias. "edit ~/.config/fish/userconfig/alias.fish"
+abbr --add -- fishconfig. "edit ~/.config/fish/config.fish"
+abbr --add -- userconfig. "edit ~/.config/fish/userconfig/"
+abbr --add -- paths. "edit ~/.config/fish/userconfig/paths.fish"
 
 # note taking
-abbr --add --position anywhere -- motd. "~/notes/motd"
-abbr --add --position anywhere -- notes. "~/notes/note.secret"
-abbr --add --position anywhere -- note. "~/notes/note"
+abbr --add -- motd. "edit ~/notes/motd"
+abbr --add -- notes. "edit ~/notes/note.secret"
+abbr --add -- note. "edit ~/notes/note"
 
 # git commands
 abbr --add -- g   "git status"
