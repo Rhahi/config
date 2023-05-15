@@ -12,6 +12,7 @@ if status is-interactive
         source $file
     end
 
+	last
     if test -e ~/notes/motd
         function fish_greeting
             cat ~/notes/motd
