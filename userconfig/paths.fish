@@ -11,6 +11,9 @@ end
 addpath "$HOME/.local/bin"
 addpath "$HOME/.local/tarball/bin"
 addpath "$HOME/.local/tarball/gcc-arm-none-eabi/bin"
+addpath "$HOME/go/bin"
+addpath "/usr/local/go/bin"
+addpath "/usr/sbin"
 
 # .install paths (custom)
 addpath "$HOME/.install/image"
