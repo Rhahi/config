@@ -20,6 +20,3 @@ addpath "$HOME/.cargo/bin"
 addpath "$HOME/.juliaup/bin"
 addpath "$HOME/go/bin"
 addpath "/opt/bin"
-
-abbr --add GCC10 CC=/usr/bin/gcc-10 CXX=/usr/bin/g++-10
-abbr --add GCC12 CC=/usr/bin/gcc-12 CXX=/usr/bin/g++-12
