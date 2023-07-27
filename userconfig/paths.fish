@@ -17,6 +17,7 @@ addpath "/usr/sbin"
 
 # .install paths (custom)
 addpath "$HOME/.install/image"
+addpath "$HOME/.install/bin"
 
 # program paths
 addpath "$HOME/.cargo/bin"
