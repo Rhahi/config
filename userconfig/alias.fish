@@ -3,7 +3,6 @@
 # base aliases to be used everywhere
 
 # alias to common config files
-alias editalias="edit ~/.config/fish/userconfig/alias.fish"
 abbr --add --position anywhere -- xx "&& exec fish"
 abbr --add --position anywhere -- alias. "~/.config/fish/userconfig/alias.fish"
 abbr --add --position anywhere -- fishconfig. "~/.config/fish/config.fish"
@@ -12,8 +11,6 @@ abbr --add --position anywhere -- paths. "~/.config/fish/userconfig/paths.fish"
 
 # note taking
 abbr --add --position anywhere -- motd. "~/notes/motd"
-abbr --add --position anywhere -- notes. "~/notes/note.secret"
-abbr --add --position anywhere -- note. "~/notes/note"
 
 # git commands
 abbr --add -- g   "git status"
