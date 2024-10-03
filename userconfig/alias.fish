@@ -25,4 +25,3 @@ abbr --add -- gr  "git restore --staged"
 
 # unix commands
 abbr --add -- ll "ls -lah"
-abbr --add -- mkdir "mkdir -p"
