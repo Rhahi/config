@@ -1,3 +1,8 @@
-alias code="code --enable-features=UseOzonePlatform --ozone-platform=wayland"
-alias agent="agent --ozone-platform=wayland"
-abbr --add --position anywhere oz -- "--ozone-platform=wayland"
+# compatibility abbreviation
+abbr --add --position anywhere ozone -- "--ozone-platform=wayland"
+
+
+abbr --add -- sway-display "swaymsg -t outputs"
+abbr --add -- sway-reload "swaymsg reload"
+abbr --add -- sway-lidclose "swaymsg output eDP-1 disable"
+abbr --add -- sway-lidopen "swaymsg output eDP-1 enable"
