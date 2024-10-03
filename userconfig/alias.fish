@@ -25,7 +25,4 @@ abbr --add -- gr  "git restore --staged"
 
 # unix commands
 abbr --add -- ll "ls -lah"
-abbr --add -- mv "mv -i"
-abbr --add -- cp "cp -i"
 abbr --add -- mkdir "mkdir -p"
-abbr --add -- rm "rm -i"
